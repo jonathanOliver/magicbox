@@ -1,0 +1,98 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+
+
+.main-head{
+    height: 150px;
+    background: #FFF;
+   
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #60c1fc;
+    background-image: url("https://images.vexels.com/media/users/3/77404/raw/b4e0a5ba6d27c2680bd790193d34f124-fundo-azul-poligonal-abstrato.jpg");
+    /* background-image: url("magicBox/static/img/poligonalAzul.png"); */
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+
+    .register-form{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%; 
+    }
+
+    .sidenav{
+        width: 25%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form{
+        margin-top: 15%;
+    }
+
+    .register-form{
+        margin-top: 10%;
+    }
+}
+
+
+.login-main-text{
+    margin-top: 50%;
+    padding: 60px;
+    color: #fff;
+    text-align:right;
+}
+
+.login-main-text h2{
+    font-weight: 500;
+    padding-bottom:5px;
+}
+
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+}
+
+.div-entry{
+   float: left; 
+   padding:10px 10px 20px 20px;
+}
+
+.div-block{
+    width:25%;
+}
+
+.whypass{
+    padding-top:1%;   
+}
+
+.logo-login {
+    width: 50%;
+    margin-bottom: 50px
+}
+
